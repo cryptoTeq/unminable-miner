@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const {
   server: { port },
-} = require("../config");
+} = require("./config");
 const { healthCheckController } = require("./controllers");
 
 const app = express();
