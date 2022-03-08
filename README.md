@@ -2,7 +2,10 @@
 
 ## Build Docker Images
 
-`docker build . -t unminable`
+```
+cd ./server
+docker build . -t unminable
+```
 
 ### Run an Instance with Default Resources
 
