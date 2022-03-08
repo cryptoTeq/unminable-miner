@@ -1,6 +1,6 @@
 # UnMinable Worker
 
-## Build Docker Images
+### Build Docker Images
 
 ```
 cd ./server
