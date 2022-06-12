@@ -3,8 +3,9 @@
 ### Build Docker Images
 
 ```
-cd ./server
-docker build . -t unminable
+cd ./worker
+docker build [--build-arg COIN_AND_ADDRESS=""] [--build-arg SERVER=""] -t unminable .
+
 ```
 
 ### Run an Instance with Default Resources
@@ -13,4 +14,4 @@ docker build . -t unminable
 
 ### Run an Instance
 
-`docker run -it --memory="8g" --memory-swap="10g" --cpus="4.0" unminable`
+`docker run -it [--memory="8g"] [--memory-swap="10g"] --cpus="4.0" unminable`
